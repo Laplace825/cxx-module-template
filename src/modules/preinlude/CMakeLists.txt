@@ -1,0 +1,3 @@
+file(GLOB_RECURSE PREINCLUDE_SOURCES_CXX_MODULES *.cc)
+
+add_static_module_lib(preinclude "${PREINCLUDE_SOURCES_CXX_MODULES}")
